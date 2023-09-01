@@ -1,42 +1,5 @@
-# Nitro Minimal Starter
+# DeepL Proxy
 
-Look at the [Nitro documentation](https://nitro.unjs.io/) to learn more.
+This is a simple proxy server for the DeepL API.
 
-## Setup
-
-Make sure to install the dependencies:
-
-```bash
-# npm
-npm install
-
-# yarn
-yarn install
-
-# pnpm
-pnpm install
-```
-
-## Development Server
-
-Start the development server on <http://localhost:3000>
-
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nitro.unjs.io/deploy) for more information.
+<https://github.com/cloudflare/workerd/issues/776>
