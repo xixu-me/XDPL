@@ -2,7 +2,7 @@
 export default defineNitroConfig({
   routeRules: {
     '/**': {
-      proxy: 'https://api-free.deepl.com'
+      proxy: 'https://api-free.deepl.com/**'
     }
   }
 });
