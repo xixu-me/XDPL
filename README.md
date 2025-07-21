@@ -143,6 +143,34 @@ export default defineNitroConfig({
 });
 ```
 
+## Data Privacy & Security
+
+### Privacy Considerations
+
+- **Proxy Operation**: XDPL acts as a transparent proxy, forwarding requests directly to DeepL's servers without storing or logging translation content
+- **No Data Retention**: Translation requests and responses pass through the proxy without being cached or stored locally
+- **Direct Communication**: Your data flows directly between your application and DeepL's secure infrastructure
+
+### Security Features
+
+- **HTTPS Support**: All communications are encrypted in transit when deployed with HTTPS
+- **No API Key Exposure**: Your DeepL API credentials remain between your client and DeepL's servers
+- **Minimal Attack Surface**: Lightweight proxy design reduces potential security vulnerabilities
+- **Server-Side Processing**: Runs on secure server infrastructure (Vercel, Netlify, etc.)
+
+### Best Practices
+
+- **Use HTTPS**: Always deploy with HTTPS enabled for encrypted communication
+- **Environment Variables**: Store sensitive configuration in environment variables, not in code
+- **Regular Updates**: Keep dependencies updated to ensure security patches are applied
+- **Monitor Usage**: Implement proper logging and monitoring for your deployment
+
+### Compliance
+
+- **GDPR Friendly**: No personal data is stored or processed by the proxy
+- **Data Sovereignty**: Translation data flows directly to DeepL, maintaining your existing compliance posture
+- **Audit Trail**: Server logs can be configured according to your compliance requirements
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
