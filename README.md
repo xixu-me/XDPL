@@ -28,22 +28,22 @@ A lightweight proxy server for DeepL Translator built with [Nitro](https://nitro
 
 1. Clone the repository:
 
-```bash
-git clone https://github.com/xixu-me/xdpl.git
-cd xdpl
-```
+    ```bash
+    git clone https://github.com/xixu-me/XDPL.git
+    cd XDPL
+    ```
 
 2. Install dependencies:
 
-```bash
-pnpm install
-```
+    ```bash
+    pnpm install
+    ```
 
 3. Start the development server:
 
-```bash
-pnpm dev
-```
+    ```bash
+    pnpm dev
+    ```
 
 The server will start on `http://localhost:3000`
 
@@ -76,7 +76,7 @@ fetch('https://your-domain.vercel.app/jsonrpc', {
 
 ### Deploy to Vercel
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/xixu-me/xdpl)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/xixu-me/XDPL)
 
 #### Option 1: One-Click Deploy
 
@@ -86,27 +86,27 @@ Click the "Deploy with Vercel" button above to deploy instantly.
 
 1. Install Vercel CLI:
 
-```bash
-npm i -g vercel
-```
+    ```bash
+    npm i -g vercel
+    ```
 
 2. Login to your Vercel account:
 
-```bash
-vercel login
-```
+    ```bash
+    vercel login
+    ```
 
 3. Deploy from your project directory:
 
-```bash
-vercel
-```
+    ```bash
+    vercel
+    ```
 
 4. For production deployment:
 
-```bash
-vercel --prod
-```
+    ```bash
+    vercel --prod
+    ```
 
 #### Option 3: Deploy via Git Integration
 
